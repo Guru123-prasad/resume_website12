@@ -1,46 +1,46 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.8;
-    background: #f0f4f9; /* Light blue-gray for a clean look */
-    color: #2c3e50; /* Dark navy text for readability */
+    background: #f9f9f9; /* Light background for a clean, modern feel */
+    color: #333; /* Dark text for readability */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: #34495e; /* Deep blue-gray for the header */
+    background: #001A6E; /* Deep blue header background */
     color: white;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header nav a {
-    color: #ecf0f1; /* Light gray for navigation links */
-    margin: 0 15px;
+    color: white;
+    margin: 0 10px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
 }
 
 header nav a:hover {
     text-decoration: underline;
-    color: #1abc9c; /* Mint green hover effect */
 }
 
-.bio-main,
+.bio-main {
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px;
+}
+
 .resume-main {
     padding: 20px;
     max-width: 800px;
-    margin: 30px auto;
-    background: #ffffff; /* White background for main content */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow */
-    border-radius: 12px;
-    text-align: center;
-}
-
-.resume-main {
-    text-align: left;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    border-radius: 8px;
 }
 
 .resume-header {
@@ -50,7 +50,6 @@ header nav a:hover {
 
 .resume-header h2 {
     margin: 10px 0;
-    color: #e74c3c; /* Highlighted red for the name */
 }
 
 .resume-container {
@@ -58,14 +57,14 @@ header nav a:hover {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section h2 {
-    color: #2980b9; /* Vibrant blue for section headings */
-    border-bottom: 3px solid #2980b9; /* Blue underline for headings */
+    color: #007BFF; /* Blue for section headings */
+    border-bottom: 2px solid #007BFF; /* Blue underline for section emphasis */
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding-bottom: 5px;
 }
 
@@ -73,46 +72,30 @@ section h2 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: 20px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
-    border: 5px solid #1abc9c; /* Mint green border to match theme */
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for the profile image */
 }
 
 ul {
     list-style: none; 
     padding: 0;
-    margin: 0;
 }
 
 ul li {
-    margin: 12px 0;
-    font-size: 1.2rem;
-    color: #34495e; /* Dark gray for list items */
+    margin: 10px 0;
+    font-size: 1.1rem;
 }
 
 ul li p {
-    margin: 8px 0;
+    margin: 5px 0;
 }
 
 footer {
     text-align: center;
-    background: #2c3e50; /* Deep navy for the footer */
-    color: #bdc3c7; /* Light gray text for footer */
-    padding: 15px 0;
-    font-size: 0.9rem;
+    background: #074799; /* Dark blue footer background */
+    color: white;
+    padding: 10px 0;
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-footer a {
-    color: #1abc9c; /* Mint green links in footer */
-    text-decoration: none;
-    margin: 0 5px;
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration: underline;
-    color: #16a085; /* Darker mint green for hover */
 }
